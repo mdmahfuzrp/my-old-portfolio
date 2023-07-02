@@ -11,9 +11,7 @@ export const Footer = () => {
         <a href="/" rel="noreferrer" target="_blank">
           <div className="footerBox">
             <h3 className="footer">
-              Made with{" "}
-              <span style={{ color: `red`, background: `transparent` }}>❤</span>{" "}
-              By Shreyas
+              <p style={{fontSize: '15px', fontWeight: '200'}}>Copyright &copy; 2023- All right reserved by Md Mahfuz RP</p>
             </h3>
           </div>
         </a>

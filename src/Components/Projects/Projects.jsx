@@ -14,6 +14,9 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiFirebase,
+  SiReact,
+  SiReacttable,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -29,28 +32,29 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/V9C8Jm9/rockstar-games.png"
-                    alt="Rockstar Games"
+                    src="https://i.ibb.co/YBWjQ00/1.jpg"
+                    alt="Marvel Universe"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Rockstar Games</h2>
-                <p>
-                  Rockstar games is a video game company who develops lots of
-                  games like GTA, Red Dead, and many more. we build clone of
-                  their store website.
+                <h2>Marvel Universe</h2>
+                <p style={{textAlign: 'left'}}>
+                  <li>A seller can create and login to an account to sell toys online.</li>
+                  <li>A seller can add new toys, they can view, update, delete their toys.</li>
+                  <li>Users can register or log in using Google or email/password to access and view details, also manage their profile.</li>
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiTailwindcss />
+                  
                   <FaReact />
-                  <SiMaterialui />
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
                 </div>
                 <div>
                   <a
-                    href="https://store-rockstargames.vercel.app/"
+                    href="https://marvel-universe-client.web.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -59,7 +63,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/aman-638/store.rockstartgames.com-Frontend-Clone"
+                    href="https://github.com/mdmahfuzrp/toy-universe-client"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -76,26 +80,27 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
-                    alt="Sk-Weather-App"
+                    src="https://i.ibb.co/7QWcgXL/Screenshot-1.jpg"
+                    alt="Kode Restaurant"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
-                <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                <h2>Kode Restaurant</h2>
+                <p style={{textAlign: 'left'}}>
+                  <li>Kode Restaurant features individual chef portfolios showcasing their expertise and includes special re recipes curated by each chef.</li>
+                  <li>Customers can login/signup using Google, GitHub, or Email and password.</li>
+                  <li>Any logged customers can add favorite chefs, perform operations, and manage profiles.</li>
                 </p>
                 <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
+                  <SiTailwindcss />
+                  <FaReact />
+                  <SiFirebase />
+                  <SiExpress />
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="https://kode-restaurant-server.web.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -104,7 +109,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://github.com/mdmahfuzrp/kode-restaurant-client"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -120,79 +125,36 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img src="https://i.ibb.co/sHBWC5d/Screenshot-4.jpg" alt="" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>APIJS Mongo</h2>
-                <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
+                <h2>Shopify Dashboard</h2>
+                <p style={{textAlign: 'left'}}>
+                  <li>First of all this is just design</li>
+                  <li>For view this side admin need to login first.</li>
+                  <li>An admin can login using email or password</li>
+                  <li>Admin see all website data, users data</li>
+                  <li>It's just a design, and in this project i have implement my frontend skills. And also this project for a spain company client. I have done it successfully</li>
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiTailwindcss />
+                  <SiReacttable />
+                  <SiReactrouter />
+                  <SiReact />
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://shopify-admin-dashboard.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                      See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
-                <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                </div>
-                <div>
-                  <a
-                    href="https://drive-system.herokuapp.com/user/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      URL for the API
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href="https://github.com/mdmahfuzrp/shopify-admin-dashboard"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -209,28 +171,30 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
+                    src="https://i.ibb.co/cQkSHDw/Screenshot-3.jpg"
                     alt="Uniqlo-Clone"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Uniqlo Clone</h2>
-                <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
+                <h2>Tech Programmer BD</h2>
+                <p style={{textAlign: 'left'}}>
+                  <li>Website has Admin Dashboard, admin can make student to instructor or admin, admin 
+      can approve or deny classes of all instructors, add or delete users.</li>
+      <li>Instructor has Instructor Dashboard, also add new classes mange own classes and delete.</li>
+      <li>Student has Student Dashboard, Select and enrolled any class also delete selected calss.</li>
                 </p>
                 <div>
+                  
+                  <SiReact />
+                  <SiFirebase />
                   <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
-                  <SiHtml5 />
-                  <DiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://uniqlo-clone.netlify.app/"
+                    href="https://tech-programmer-bd.web.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -239,51 +203,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
-                    alt="PulsePlus-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>PulsePlus Clone</h2>
-                <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
+                    href="https://github.com/mdmahfuzrp/tech-programmer-bd"
                     target="_blank"
                     rel="noreferrer"
                   >

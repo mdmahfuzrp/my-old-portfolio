@@ -71,13 +71,13 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
+              href="https://drive.google.com/file/d/14qBeWzAxVVaEgksYKC9s-KKgI7AcnL3O/view?usp=sharing"
               onClick={toggleNavList}
               className="link link--nav"
               target="_blank"
               rel="noreferrer"
             >
-              Resume
+              View Resume
             </a>
           </li>
         </ul>

@@ -22,44 +22,43 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Shreyas Khakal </span> and I am from{" "}
+                <span className="different">Md Mahfuz RP </span> and I am from{" "}
                 <span className="different">
                   {" "}
-                  Ahmednagar, Maharashtra (India)
+                  Barisal, Bangladesh
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
+                . I have completed my diploma graduation in (Computer Science Technology)
                 from{" "}
                 <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                  Infra Polytechnic Institute, Barisal (BD)
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                . Then I joined Complete Web development course by{" "}
+                <span className="different">Programming Hero</span> (a information and technology company)
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Entrepreneure{" "}
+                Video Making{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Chess Enthusiast{" "}
+                Public Speaking{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                YouTuber{" "}
+                Team Leading{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Poet{" "}
+                Book Reading{" "}
               </h4>
             </div>
           </div>

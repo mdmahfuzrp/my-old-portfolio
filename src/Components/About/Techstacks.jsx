@@ -8,7 +8,8 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiNextdotjs
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
@@ -21,11 +22,8 @@ export const Techstacks = () => {
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
-          <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
-          </div>
-          <div>
+          
+        <div>
             <SiHtml5 />
             <h5>HTML</h5>
           </div>
@@ -34,38 +32,46 @@ export const Techstacks = () => {
             <h5>CSS</h5>
           </div>
           <div>
+            <BsBootstrap />
+            <h5>Bootstrap</h5>
+          </div>
+          
+          <div>
+            <SiTailwindcss />
+            <h5>Tailwind</h5>
+          </div>
+
+          
+          <div>
+            <SiMaterialui />
+            <h5>Material Ui</h5>
+          </div>
+          
+          <div>
+            <SiJavascript />
+            <h5>Javascript</h5>
+          </div>
+          <div>
             <FaReact />
-            <h5>React</h5>
+            <h5>React.JS</h5>
+          </div>
+
+          <div>
+            <SiNextdotjs />
+            <h5>Next.JS</h5>
           </div>
           <div>
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <h5>Node.JS</h5>
+          </div>
+          
+          <div>
+            <SiExpress />
+            <h5>Express.JS</h5>
           </div>
           <div>
             <DiMongodb />
             <h5>MongoDb</h5>
-          </div>
-
-          <div>
-            <SiExpress />
-            <h5>Express</h5>
-          </div>
-
-          <div>
-            <FaAws />
-            <h5>AWS</h5>
-          </div>
-          <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
-          </div>
-          <div>
-            <BsWordpress />
-            <h5>Wordpress</h5>
-          </div>
-          <div>
-            <SiHeroku />
-            <h5>Heroku</h5>
           </div>
           <div>
             <VscGithub />

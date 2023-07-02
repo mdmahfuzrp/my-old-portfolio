@@ -17,18 +17,15 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Shreyas Khakal</span>
+          Hello, I am <span className="about__name">Md Mahfuz RP</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+        Experienced MERN Stack Developer proficient in MongoDB, Express.js, React.js, and Node.js. Committed to delivering high-quality code and seamless user experiences to drive innovation.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Shreyasgkhakal100"
+            href="https://github.com/mdmahfuzrp"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +34,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:shreyasgkhakal100@gmail.com"
+            href="mailto:mahfuzrpsmorg@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -46,7 +43,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+918668613593"
+            href="tel:+8801855277095"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -55,7 +52,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/shreyas-g-khakal/"
+            href="https://www.linkedin.com/in/mdmahfuzrp"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -63,27 +60,16 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a>
         </div>
 
-        <button
+        <a
           className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
-            );
-          }}
+          href="/resume.pdf"
+          download="resume.pdf"
+          style={{display:'flex', alignItems:'center'}}
         >
           Resume
-        </button>
+        </a>
       </div>
       <Introduction />
       <Timeline />

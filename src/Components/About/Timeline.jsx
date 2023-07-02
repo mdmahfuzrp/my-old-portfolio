@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Dec 2021 - Feb 2022"}
+            date={"May 2023 - July 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -54,21 +54,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide Cordinator
+              5+ Full Stack Projects
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              5 Member Team
             </h4>
             <p data-aos="fade-right">
-              Managing Team of 15 Student Guides directly and 100-150 students
-              indirectly with help of student guides.
+              In this time i complete 20+ project with my 5 team member. I have learn amazing thing from here, and it's great experience.
             </p>
           </VerticalTimelineElement>
+          
           <VerticalTimelineElement
-            date={"Nov 2021 - Dec 2021"}
+            date={"Mar 2023 - Mar 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,23 +90,127 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide
+              Winner- 1 Minute Coding Contest
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              Programming Hero
             </h4>
             <p data-aos="fade-right">
-              Mentoring and clearing student's doubts via one to one and one to
-              all video calls, Motivating students to do hard work, provides
-              emotional support to them & Helping students to start their career
-              in Tech.
+              I'm winner of 1 Minute Coding Contest (Arrange by - Programming Hero). This contest is really big thing for me and with this contest i learn many new thing from mentors.
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            date={"Feb 2023 - Feb 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Winner - Frontend Challenge
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              NonAcademy
+            </h4>
+            <p data-aos="fade-right">
+              On February 2023 NonAcademy organized a contest who's name Frontend Challenge, in this contest i create some difficult frontend design and learn something new.
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            date={"Jan 2023 - Feb 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              2st - UGB South Zone Contest
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              University of Global Village
+            </h4>
+            <p data-aos="fade-right">
+              UGB arrange a problem solving contest and i'm 2nd Runner Up on this contest. This is one kind of national problem solving contest cause multiple university, college join in this contest.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            date={"Jan 2023 - Jun 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              MERN Stack Course
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Programming Hero
+            </h4>
+            <p data-aos="fade-right">
+              Programming Hero is amazing platform for learn MERN stack development. In this course i learn more then 15+ technology for improve my skills In this sector or field.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Sep 2022 - Nov 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -134,171 +238,12 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              Website Customization (Part Time)
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
+              Joined the Daily Somoyer Barta for customize there website and make website for simple and easy to understand. Also get to learn lot more other skills as well.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Co-founder
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Agricultural Training institute, Ahmednagar
-            </h4>
-            <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Founder & Director (Part Time)
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
-            </h4>
-            <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Jul 2017 - Aug 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student [BTech. (Agril. Engineering)]
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              CAET, VNMKV University, Parbhani (MH)
-            </h4>
-            <p data-aos="fade-right">
-              Studied Agricultural Engineering which consists of all the
-              subjects accross all engineering and agricultural streams. Passed
-              with 8.32 CGPA
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"March 2017"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student [HSC (Science)]
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Janata Jr. College, Ruichhattishi, Ahmednagar
-            </h4>
-            <p data-aos="fade-right">
-              Studied 12th Science and Passed with 85.69 Percentage.
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            icon={<StarRateIcon />}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-          ></VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>

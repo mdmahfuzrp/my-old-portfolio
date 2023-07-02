@@ -20,30 +20,12 @@ export const Contact = () => {
             className={"contactcontainer " + themename}
             data-aos="fade-right"
           >
-            <a
-              href="https://www.linkedin.com/in/shreyas-g-khakal/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedin className="linkedin" />
-            </a>
-            <a
-              href="https://github.com/Shreyasgkhakal100/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <VscGithub className="github" />
-            </a>
-            <a
-              href="mailto:shreyasgkhakal100@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <CgMail className="email" />
-            </a>
-            <a href="tel:+918668613593" target="_blank" rel="noreferrer">
-              <BsFillTelephoneFill className="phone" />
-            </a>
+            <form>
+              <input type="text" placeholder="Your name..." />
+              <input type="email" placeholder="Your email..." />
+              <textarea name="" id="" placeholder="Message" cols="30" rows="5"></textarea>
+              <input className="btnResume" type="submit" value="Send Message" />
+            </form>
           </div>
           <div className="mailNumber" data-aos="fade-right">
             <div>
@@ -51,7 +33,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>shreyasgkhakal100@gmail.com</p>
+                <p>mahfuzrpsmorg@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">
@@ -59,7 +41,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+91 8668613593</p>
+                <p>+88 01855277095</p>
               </span>
             </div>
           </div>
