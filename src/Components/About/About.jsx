@@ -21,7 +21,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        Experienced MERN Stack Developer proficient in MongoDB, Express.js, React.js, and Node.js. Committed to delivering high-quality code and seamless user experiences to drive innovation.
+        Experienced MERN Stack Developer proficient in <span className="skill-lang">JavaScript, React Js, Next Js, Redux, Rest Api, Firebase, Express Js, Mongoose, MongoDB etc.</span> Committed to delivering high-quality code and seamless user experiences to drive innovation.
         </p>
         <div className="about__contact center">
           <a
@@ -34,7 +34,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:mahfuzrpsmorg@gmail.com"
+            href="mailto:mdmahfuzrp@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -43,7 +43,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+8801855277095"
+            href="tel:+8801838347363"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"

@@ -21,6 +21,8 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+
+import { GiCheckboxTree } from "react-icons/gi";
 export const Projects = () => {
   return (
     <>
@@ -31,30 +33,38 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://i.ibb.co/YBWjQ00/1.jpg"
-                    alt="Marvel Universe"
-                  />
+                  <img src="https://i.ibb.co/XZBKn5T/1.png" alt="ITS Option" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Marvel Universe</h2>
-                <p style={{textAlign: 'left'}}>
-                  <li>A seller can create and login to an account to sell toys online.</li>
-                  <li>A seller can add new toys, they can view, update, delete their toys.</li>
-                  <li>Users can register or log in using Google or email/password to access and view details, also manage their profile.</li>
+                <h2>ITS Option</h2>
+                <p style={{ textAlign: "left" }}>
+                  <li>
+                    Users can securely log in, deposit and withdraw funds,
+                    purchase AI trading bots, and practice with demo trading.
+                  </li>
+                  <li>
+                    Moderators oversee user lists and approve deposit and
+                    withdrawal requests, ensuring a secure trading environment.
+                  </li>
+                  <li>
+                    Administrators possess full authority, including appointing
+                    new moderators and configuring moderator permissions,
+                    offering complete control over the platform's operations.
+                  </li>
                 </p>
                 <div>
                   <SiTailwindcss />
-                  
+
                   <FaReact />
                   <SiNodedotjs />
                   <SiExpress />
+                  <GiCheckboxTree />
                   <SiMongodb />
                 </div>
                 <div>
                   <a
-                    href="https://marvel-universe-client.web.app/"
+                    href="https://ct-option-client.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -63,7 +73,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/mdmahfuzrp/toy-universe-client"
+                    href="https://github.com/mdmahfuzrp/its-option-client"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -80,6 +90,123 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
+                    src="https://i.ibb.co/crxk7rN/2.png"
+                    alt="House Hunter"
+                  />
+                </div>
+                
+              </div>
+              <div className="project_information">
+                <h2>House Hunter</h2>
+                <p style={{ textAlign: "left" }}>
+                  <li>
+                    Streamline property listing and management for house owners,
+                    enhancing their control on the platform.
+                  </li>
+                  <li>
+                    Deliver a user-friendly rental experience, enabling renters
+                    to find properties easily and manage bookings efficiently.
+                  </li>
+                  <li>
+                    Improve user satisfaction with multiple dynamic search and
+                    filters, helping users find properties that match their
+                    preferences and choice.
+                  </li>
+                </p>
+                <div>
+                  <SiTailwindcss />
+
+                  <FaReact />
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                </div>
+                <div>
+                  <a
+                    href="https://house-hunter-c095a.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/mdmahfuzrp/house-hunter"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+                  <div className="project">
+                    <div className="project_videocontainer">
+                      <div>
+                        <img
+                          src="https://i.ibb.co/YBWjQ00/1.jpg"
+                          alt="Marvel Universe"
+                        />
+                      </div>
+                    </div>
+                    <div className="project_information">
+                      <h2>Marvel Universe</h2>
+                      <p style={{ textAlign: "left" }}>
+                        <li>
+                          A seller can create and login to an account to sell
+                          toys online.
+                        </li>
+                        <li>
+                          A seller can add new toys, they can view, update,
+                          delete their toys.
+                        </li>
+                        <li>
+                          Users can register or log in using Google or
+                          email/password to access and view details, also manage
+                          their profile.
+                        </li>
+                      </p>
+                      <div>
+                        <SiTailwindcss />
+
+                        <FaReact />
+                        <SiNodedotjs />
+                        <SiExpress />
+                        <SiMongodb />
+                      </div>
+                      <div>
+                        <a
+                          href="https://marvel-universe-client.web.app/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span type="button" className="btns onbt onbt">
+                            See this Live
+                          </span>
+                        </a>
+                        <a
+                          href="https://github.com/mdmahfuzrp/toy-universe-client"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span type="button" className="btns onbt">
+                            View Code
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
                     src="https://i.ibb.co/7QWcgXL/Screenshot-1.jpg"
                     alt="Kode Restaurant"
                   />
@@ -87,10 +214,20 @@ export const Projects = () => {
               </div>
               <div className="project_information">
                 <h2>Kode Restaurant</h2>
-                <p style={{textAlign: 'left'}}>
-                  <li>Kode Restaurant features individual chef portfolios showcasing their expertise and includes special re recipes curated by each chef.</li>
-                  <li>Customers can login/signup using Google, GitHub, or Email and password.</li>
-                  <li>Any logged customers can add favorite chefs, perform operations, and manage profiles.</li>
+                <p style={{ textAlign: "left" }}>
+                  <li>
+                    Kode Restaurant features individual chef portfolios
+                    showcasing their expertise and includes special re recipes
+                    curated by each chef.
+                  </li>
+                  <li>
+                    Customers can login/signup using Google, GitHub, or Email
+                    and password.
+                  </li>
+                  <li>
+                    Any logged customers can add favorite chefs, perform
+                    operations, and manage profiles.
+                  </li>
                 </p>
                 <div>
                   <SiTailwindcss />
@@ -130,12 +267,16 @@ export const Projects = () => {
               </div>
               <div className="project_information">
                 <h2>Shopify Dashboard</h2>
-                <p style={{textAlign: 'left'}}>
+                <p style={{ textAlign: "left" }}>
                   <li>First of all this is just design</li>
                   <li>For view this side admin need to login first.</li>
                   <li>An admin can login using email or password</li>
                   <li>Admin see all website data, users data</li>
-                  <li>It's just a design, and in this project i have implement my frontend skills. And also this project for a spain company client. I have done it successfully</li>
+                  <li>
+                    It's just a design, and in this project i have implement my
+                    frontend skills. And also this project for a spain company
+                    client. I have done it successfully
+                  </li>
                 </p>
                 <div>
                   <SiTailwindcss />
@@ -178,14 +319,22 @@ export const Projects = () => {
               </div>
               <div className="project_information">
                 <h2>Tech Programmer BD</h2>
-                <p style={{textAlign: 'left'}}>
-                  <li>Website has Admin Dashboard, admin can make student to instructor or admin, admin 
-      can approve or deny classes of all instructors, add or delete users.</li>
-      <li>Instructor has Instructor Dashboard, also add new classes mange own classes and delete.</li>
-      <li>Student has Student Dashboard, Select and enrolled any class also delete selected calss.</li>
+                <p style={{ textAlign: "left" }}>
+                  <li>
+                    Website has Admin Dashboard, admin can make student to
+                    instructor or admin, admin can approve or deny classes of
+                    all instructors, add or delete users.
+                  </li>
+                  <li>
+                    Instructor has Instructor Dashboard, also add new classes
+                    mange own classes and delete.
+                  </li>
+                  <li>
+                    Student has Student Dashboard, Select and enrolled any class
+                    also delete selected calss.
+                  </li>
                 </p>
                 <div>
-                  
                   <SiReact />
                   <SiFirebase />
                   <SiNodedotjs />
@@ -217,7 +366,6 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      
     </>
   );
 };

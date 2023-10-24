@@ -16,32 +16,22 @@ export const Contact = () => {
           Get in <span className="different">Touch</span>
         </h2>
         <div className="contactMain">
-          <div
-            className={"contactcontainer " + themename}
-            data-aos="fade-right"
-          >
-            <form>
-              <input type="text" placeholder="Your name..." />
-              <input type="email" placeholder="Your email..." />
-              <textarea name="" id="" placeholder="Message" cols="30" rows="5"></textarea>
-              <input className="btnResume" type="submit" value="Send Message" />
-            </form>
-          </div>
           <div className="mailNumber" data-aos="fade-right">
             <div>
               <span>
                 <CgMail className="email" />
               </span>
               <span>
-                <p>mahfuzrpsmorg@gmail.com</p>
+                <p>mdmahfuzrp@gmail.com</p>
               </span>
             </div>
+          
             <div className="iconsCont">
               <span>
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+88 01855277095</p>
+                <p>+88 01838347363</p>
               </span>
             </div>
           </div>

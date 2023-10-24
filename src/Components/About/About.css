@@ -17,7 +17,9 @@
   max-width: 70%;
   text-align: center;
 }
-
+.skill-lang{
+  color: var(--clr-primary);
+}
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
